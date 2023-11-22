@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/homme"
+        android:icon="@drawable/homme"
+        android:title="Homme"
+        app:showAsAction="always"/>
+    <item
+        android:id="@+id/save"
+        android:icon="@drawable/save"
+        android:title="Save"
+        app:showAsAction="always"/>
+    <item
+        android:id="@+id/delete"
+        android:icon="@drawable/delete"
+        android:title="Delete"
+        app:showAsAction="ifRoom"/>
+    <item
+        android:id="@+id/option"
+        android:title="Choisi Option"
+        android:icon="@drawable/menu"
+        app:showAsAction="always">
+        <menu>
+            <item
+                android:id="@+id/option01"
+                android:title="Option Oune"
+                app:showAsAction="always"/>
+            <item
+                android:id="@+id/option02"
+                android:title="Option Two"
+                app:showAsAction="always"/>
+            <item
+                android:id="@+id/option03"
+                android:title="Option Three"
+                app:showAsAction="always"/>
+        </menu>
+    </item>
+    <item
+        android:id="@+id/aide"
+        android:icon="@drawable/aide"
+        android:title="Aide"
+        app:showAsAction="never"/>
+</menu>
